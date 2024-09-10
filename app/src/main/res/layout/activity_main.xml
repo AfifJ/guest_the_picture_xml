@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="Pilihlah gambar yang akan ditebak"
+        android:textSize="18sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:padding="16dp"
+        android:rowOrderPreserved="false">
+
+        <ImageView
+            android:id="@+id/imageView_eskrim"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="Eskrim icon"
+            android:scaleType="fitCenter"
+            android:src="@drawable/eskrim" />
+
+        <ImageView
+            android:id="@+id/imageView_mieayam"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="Mie ayam icon"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mieayam" />
+
+        <ImageView
+            android:id="@+id/imageView_nasigoreng"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="Nasigoreng icon"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nasigoreng" />
+
+        <ImageView
+            android:id="@+id/imageView_nasikuning"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="Nasikuning icon"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nasikuning" />
+
+        <ImageView
+            android:id="@+id/imageView_sate"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="Sate icon"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sate" />
+
+        <ImageView
+            android:id="@+id/imageView_soto"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="Soto icon"
+            android:scaleType="fitCenter"
+            android:src="@drawable/soto" />
+
+    </GridLayout>
+</LinearLayout>
